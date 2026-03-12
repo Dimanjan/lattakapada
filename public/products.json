@@ -1,0 +1,158 @@
+[
+  {
+    "id": "cargo-pant",
+    "name": "Cargo Pant",
+    "slug": "cargo-pant",
+    "category": "Men",
+    "subcategory": "Cargo Pants",
+    "price": 1899,
+    "originalPrice": 2299,
+    "rating": 4.8,
+    "reviews": 64,
+    "featured": true,
+    "hero": true,
+    "searchTerms": ["cargo", "utility", "streetwear", "pant"],
+    "tags": ["Utility pockets", "Tapered fit", "Daily wear"],
+    "overview": "A utility-first cargo silhouette with a clean tapered leg and an easy everyday fit.",
+    "description": "Designed from the product visuals as a slim utility cargo trouser with flap pockets and a structured ankle finish. It works as an everyday casual piece that balances movement, storage, and a sharper streetwear shape.",
+    "details": [
+      "Mid-rise waist with a slim tapered leg",
+      "Cargo pocket styling for practical daily wear",
+      "Clean utility presentation inspired by the original product artwork",
+      "Works well with tees, hoodies, and lightweight shirts"
+    ],
+    "variants": [
+      {
+        "id": "style-01",
+        "name": "Style 01",
+        "color": "Style 01",
+        "images": ["/cargo_pants1.webp", "/cargo_pants2.webp"],
+        "swatch": "#596145"
+      }
+    ]
+  },
+  {
+    "id": "denim-half-pant",
+    "name": "Denim Half Pant",
+    "slug": "denim-half-pant",
+    "category": "Men",
+    "subcategory": "Half Pants",
+    "price": 1399,
+    "originalPrice": 1699,
+    "rating": 4.7,
+    "reviews": 51,
+    "featured": true,
+    "hero": false,
+    "searchTerms": ["half pant", "denim", "shorts", "summer", "casual"],
+    "tags": ["Warm weather", "Clean finish", "Easy fit"],
+    "overview": "A smart summer short with denim-inspired styling and a neat polished finish.",
+    "description": "Based on the supplied product images, this style works as a structured half pant with a relaxed above-knee cut. It is suited to casual daytime dressing and warm-weather everyday wear.",
+    "details": [
+      "Comfortable short length for warm weather",
+      "Clean front styling with a simple versatile finish",
+      "Easy to pair with polos, oversized tees, and shirts",
+      "Balanced look between casual shorts and smart daily wear"
+    ],
+    "variants": [
+      {
+        "id": "style-01",
+        "name": "Style 01",
+        "color": "Style 01",
+        "images": ["/denim_half_pant1.webp"],
+        "swatch": "#aab39a"
+      },
+      {
+        "id": "style-02",
+        "name": "Style 02",
+        "color": "Style 02",
+        "images": ["/denim_half_pant2.webp"],
+        "swatch": "#bfc3c3"
+      }
+    ]
+  },
+  {
+    "id": "formal-pant",
+    "name": "Formal Pant",
+    "slug": "formal-pant",
+    "category": "Men",
+    "subcategory": "Formal Pants",
+    "price": 2199,
+    "originalPrice": 2599,
+    "rating": 4.9,
+    "reviews": 72,
+    "featured": true,
+    "hero": false,
+    "searchTerms": ["formal", "office", "trouser", "smart"],
+    "tags": ["Office ready", "Tailored look", "Clean finish"],
+    "overview": "A polished trouser range for office, events, and refined everyday dressing.",
+    "description": "The original visuals show a tailored straight-to-slim formal trouser with crisp belt styling. It reads as a dependable smartwear option for office settings, formal visits, and occasions where a cleaner silhouette is needed.",
+    "details": [
+      "Tailored trouser profile with a clean front",
+      "Refined presentation suitable for formal styling",
+      "Suitable with shirts, knit polos, and blazers",
+      "Sharper finish than casual cargo-based bottoms"
+    ],
+    "variants": [
+      {
+        "id": "style-01",
+        "name": "Style 01",
+        "color": "Style 01",
+        "images": ["/formal_pant.webp"],
+        "swatch": "#d8cfbb"
+      },
+      {
+        "id": "style-02",
+        "name": "Style 02",
+        "color": "Style 02",
+        "images": ["/formal_pant2.webp"],
+        "swatch": "#cfb887"
+      }
+    ]
+  },
+  {
+    "id": "single-flap-cargo",
+    "name": "Single Flap Cargo",
+    "slug": "single-flap-cargo",
+    "category": "Men",
+    "subcategory": "Cargo Pants",
+    "price": 1999,
+    "originalPrice": 2399,
+    "rating": 4.8,
+    "reviews": 58,
+    "featured": true,
+    "hero": false,
+    "searchTerms": ["single flap", "cargo", "utility"],
+    "tags": ["Statement pocket", "Street fit", "Utility shape"],
+    "overview": "A more expressive cargo silhouette with single-flap pocket styling and multiple style options.",
+    "description": "This product family appears in several presentations in the provided visuals, built around a statement flap pocket. The silhouette reads slightly roomier than the standard cargo style while keeping a structured leg shape.",
+    "details": [
+      "Single-flap utility pocket detail",
+      "Multiple style options within the same cargo family",
+      "Relaxed utility mood with a tidy structured finish",
+      "Strong option for casual streetwear styling"
+    ],
+    "variants": [
+      {
+        "id": "style-01",
+        "name": "Style 01",
+        "color": "Style 01",
+        "images": ["/single_flap_cargo1.webp"],
+        "swatch": "#d5c8af"
+      },
+      {
+        "id": "style-02",
+        "name": "Style 02",
+        "color": "Style 02",
+        "images": ["/single_flap_cargo2.webp"],
+        "swatch": "#596145"
+      },
+      {
+        "id": "style-03",
+        "name": "Style 03",
+        "color": "Style 03",
+        "images": ["/single_flap_cargo3.webp"],
+        "swatch": "#c1c1bd"
+      }
+    ]
+  }
+]
