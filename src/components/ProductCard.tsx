@@ -112,7 +112,7 @@ export function ProductCard({ product }: ProductCardProps) {
             </div>
             <Link
               to="/cart"
-              className="mt-4 inline-flex w-full items-center justify-center rounded-2xl bg-[var(--ink)] px-4 py-4 text-sm font-semibold text-white"
+              className="mt-4 inline-flex w-full items-center justify-center rounded-2xl bg-[var(--brand-gold)] px-4 py-4 text-sm font-semibold text-white transition hover:bg-[var(--brand-gold-deep)]"
             >
               Proceed to Checkout
             </Link>
