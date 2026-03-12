@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import { useEffect } from 'react';
 
 type SeoProps = {
   title: string;
@@ -7,14 +7,33 @@ type SeoProps = {
 };
 
 export function Seo({ title, description, image = '/formal_pant2.webp' }: SeoProps) {
-  return (
-    <Helmet>
-      <title>{title}</title>
-      <meta name="description" content={description} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
-      <meta property="og:image" content={image} />
-      <meta property="twitter:card" content="summary_large_image" />
-    </Helmet>
+  useEffect(() => {
+    document.title = title;
+
+    updateMeta('name', 'description', description);
+    updateMeta('property', 'og:title', title);
+    updateMeta('property', 'og:description', description);
+    updateMeta('property', 'og:image', image);
+    updateMeta('property', 'twitter:card', 'summary_large_image');
+  }, [description, image, title]);
+
+  return null;
+}
+
+function updateMeta(
+  attribute: 'name' | 'property',
+  key: string,
+  content: string,
+) {
+  let element = document.head.querySelector<HTMLMetaElement>(
+    `meta[${attribute}="${key}"]`,
   );
+
+  if (!element) {
+    element = document.createElement('meta');
+    element.setAttribute(attribute, key);
+    document.head.appendChild(element);
+  }
+
+  element.setAttribute('content', content);
 }
