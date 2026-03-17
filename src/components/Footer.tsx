@@ -87,7 +87,7 @@ export function Footer() {
       <div className="border-t border-[var(--border-soft)]">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 text-xs uppercase tracking-[0.2em] text-[var(--muted)] md:px-6">
           <span>Latta Kapada</span>
-          <span>Powered by sajedar</span>
+          <span>Powered by sajedar.com</span>
         </div>
       </div>
     </footer>
