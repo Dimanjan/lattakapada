@@ -87,7 +87,12 @@ export function Footer() {
       <div className="border-t border-[var(--border-soft)]">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 text-xs uppercase tracking-[0.2em] text-[var(--muted)] md:px-6">
           <span>Latta Kapada</span>
-          <span>Powered by sajedar.com</span>
+          <a
+            href="https://sajedar.com"
+            className="transition hover:text-[var(--brand-gold-deep)]"
+          >
+            Powered by sajedar.com
+          </a>
         </div>
       </div>
     </footer>
